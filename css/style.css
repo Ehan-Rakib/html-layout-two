@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace, sans-serif;
+    text-align: center;
+
+}
+
+.overflow_hidden {
+    overflow: hidden;
+}
+
+.header {
+    height: 80px;
+    background-color: rgb(2, 168, 132);
+}
+
+.main {
+    overflow: hidden;
+}
+
+.left_content {
+    height: 400px;
+    background-color: rgb(250, 246, 0);
+    width: 50%;
+    float: left;
+
+}
+
+.first_item {
+    height: 200px;
+    background-color: rgb(139, 163, 53);
+
+}
+
+.second_item {
+    height: 200px;
+    background-color: red;
+    z-index: 55;
+}
+
+.right_content {
+    height: 400px;
+    background-color: rgb(2, 106, 192);
+    width: 50%;
+    float: right;
+}
+
+.footer {
+    height: 100px;
+    background-color: rgb(92, 51, 189);
+}
